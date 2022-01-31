@@ -1,0 +1,158 @@
+body {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 10%;
+
+}
+
+.header, .footer{
+    background-color: #1F2937;
+    padding: 10px 170px;
+}
+
+.first_row {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.second_row {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 5%;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 15px;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 640px;
+    max-height: 213px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.first_block {
+    margin-bottom: 80px;
+
+}
+.pictures_and_informations {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 200px;
+    gap: 25px;
+    color: gray;
+}
+.pictures_and_informations div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.first, .second, .third, .forth {
+    text-align: center;
+}
+
+.pictures_and_informations img{
+    border: 2px solid #3882F6;
+    max-width: 150px;
+    height: auto;
+}
+
+.second_block {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 230px;
+}
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#author {
+    font-style: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.third_block {
+    background-color: #3882F6;
+    margin: 8% 16%;
+    border-radius: 8px;
+    padding: 4% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_block div{
+    color: #E5E7EB;
+}
+
+.third_block button{
+    border: 2px solid white;
+}
+
+.smaller {
+    font-size: small;
+}
+
+.larger {
+    font-size: large;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+.footer div{
+    font-size: 14px;
+    color: #E5E7EB;
+    
+}
